@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="setDefaultLevel()">
+    <h1 class="game-name">Guess the magicians Number</h1>
+
+    <div class="container">
+
+        <div class="level">
+            <h3 id="chancesLeft">you have total 5 chances to guess the number</h3>
+        </div>
+
+        <h3 id="winning"></h3>
+
+        <div class="game-input">
+            <input class="getInput" type="text" onkeypress="return /[0-9]/i.test(event.key)" id="input">
+            <button class="guessBtn" onclick="guessNumber()">Guess</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

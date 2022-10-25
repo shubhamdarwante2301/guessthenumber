@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game-name {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    width: 50vw;
+    height: 50vh;
+    background-color: antiquewhite;
+}
+.level {
+    text-align: center;
+}
+#select-level {
+    padding: 3px 10px;
+    font-size: 20px;
+}
+#warning {
+    text-align: center;
+    color: red;
+    display: none;
+}
+#lost-game {
+    display: none;
+    text-align: center;
+    color: red;
+}
+
+#winner-message {
+    text-align: center;
+    color: green;
+    display: none;
+    margin-top: 10px;
+}
+
+.game-input {
+    width: 260px;
+    height: 50px;
+    margin: 40px auto;
+}
+.getInput {
+    height: 25px;
+}
+.guessBtn {
+    padding: 5px 20px;
+    background-color: bisque;
+    cursor: pointer;
+}
