@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .game-name {
     text-align: center;
 }
@@ -22,24 +26,9 @@
     padding: 3px 10px;
     font-size: 20px;
 }
-#warning {
+#winning {
     text-align: center;
-    color: red;
-    display: none;
 }
-#lost-game {
-    display: none;
-    text-align: center;
-    color: red;
-}
-
-#winner-message {
-    text-align: center;
-    color: green;
-    display: none;
-    margin-top: 10px;
-}
-
 .game-input {
     width: 260px;
     height: 50px;
